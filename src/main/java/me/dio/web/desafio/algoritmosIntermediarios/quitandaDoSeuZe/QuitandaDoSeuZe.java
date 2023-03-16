@@ -8,31 +8,30 @@ public class QuitandaDoSeuZe {
         Scanner input = new Scanner(System.in);
         int morangos = input.nextInt();
         int macas = input.nextInt();
-
-        final int PESO_TOTAL_DAS_FRUTAS = morangos + macas;
-        final int PESO_PARA_DESCONTO_EXTRA = 8;
-        final float VALOR_PARA_DESCONTO_EXTRA = 25.0f;
-        final float DESCONTO = 0.9f;
-
-        float precoNomalMorango = 2.5f;
-        float precoAcimaDe5KgMorango = 2.2f;
-        float precoNomalMaca = 1.8f;
-        float precoAcimaDe5KgMaca = 1.5f;
-
         float resultadoMaca;
         float resultadoMorango;
 
+        final int PESO_TOTAL_DAS_FRUTAS = morangos + macas;
+        final int PESO_PARA_DESCONTO_EXTRA = 8;
+
+        final float VALOR_PARA_DESCONTO_EXTRA = 25.0f;
+        final float DESCONTO = 0.9f;
+        final float PRECO_NORMAL_MORANGO  = 2.5f;
+        final float PRECO_ACIMA_DE_5KG_MORANGO  = 2.2f;
+        final float PRECO_NORMAL_MACA  = 1.8f;
+        final float PRECO_ACIMA_DE_5KG_MACA  = 1.5f;
+
         if (morangos > 5) {
 
-            resultadoMorango = morangos * precoAcimaDe5KgMorango;
+            resultadoMorango = morangos * PRECO_ACIMA_DE_5KG_MORANGO ;
         } else {
-            resultadoMorango = morangos * precoNomalMorango;
+            resultadoMorango = morangos * PRECO_NORMAL_MORANGO ;
         }
 
         if (macas > 5) {
-            resultadoMaca = macas * precoAcimaDe5KgMaca;
+            resultadoMaca = macas * PRECO_ACIMA_DE_5KG_MACA ;
         } else {
-            resultadoMaca = macas * precoNomalMaca;
+            resultadoMaca = macas * PRECO_NORMAL_MACA ;
         }
 
         float resultado = resultadoMaca + resultadoMorango;
