@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class FabricaDeCarros {
 
-    public static void main(String[] args) {
+    public static void FabricaDeCarros() {
         Scanner scan = new Scanner(System.in);
         int custoFabrica = scan.nextInt();
         int porcentagemDistribuidor = scan.nextInt();

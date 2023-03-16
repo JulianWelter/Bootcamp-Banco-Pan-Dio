@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 public class QuitandaDoSeuZe {
 
-    public static void main(String[] args) {
+    public static void QuitandaDoSeuZe() {
         Scanner input = new Scanner(System.in);
-        int morangos = input.nextInt();
-        int macas = input.nextInt();
+        final int morangos = input.nextInt();
+        final int macas = input.nextInt();
         float resultadoMaca;
         float resultadoMorango;
 
@@ -22,7 +22,6 @@ public class QuitandaDoSeuZe {
         final float PRECO_ACIMA_DE_5KG_MACA  = 1.5f;
 
         if (morangos > 5) {
-
             resultadoMorango = morangos * PRECO_ACIMA_DE_5KG_MORANGO ;
         } else {
             resultadoMorango = morangos * PRECO_NORMAL_MORANGO ;
