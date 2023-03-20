@@ -1,6 +1,6 @@
-package me.dio.web.lista;
+package me.dio.web.estruturaDeDados.lista;
 
-import me.dio.web.noGenereico.No;
+import me.dio.web.estruturaDeDados.noGenereico.No;
 
 public class Lista<T> {
 

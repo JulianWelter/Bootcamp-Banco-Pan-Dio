@@ -1,6 +1,6 @@
-package me.dio.web.pilha;
+package me.dio.web.estruturaDeDados.pilha;
 
-import me.dio.web.noGenereico.No;
+import me.dio.web.estruturaDeDados.noGenereico.No;
 
 public class Pilha<T> {
 

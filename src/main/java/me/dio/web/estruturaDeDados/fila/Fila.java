@@ -1,6 +1,6 @@
-package me.dio.web.fila;
+package me.dio.web.estruturaDeDados.fila;
 
-import me.dio.web.noGenereico.No;
+import me.dio.web.estruturaDeDados.noGenereico.No;
 
 public class Fila<T> {
 

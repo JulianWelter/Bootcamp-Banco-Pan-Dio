@@ -1,4 +1,4 @@
-package me.dio.web.noGenereico;
+package me.dio.web.estruturaDeDados.noGenereico;
 
 public class No<T> {
 
