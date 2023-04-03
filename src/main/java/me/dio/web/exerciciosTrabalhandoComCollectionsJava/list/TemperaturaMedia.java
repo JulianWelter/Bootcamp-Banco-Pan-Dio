@@ -1,4 +1,4 @@
-package me.dio.web.trabalhandoComCollectionsJava.exercicios;
+package me.dio.web.exerciciosTrabalhandoComCollectionsJava.list;
 
 /*
 Faça um programa que receba a temperatura média dos 6
@@ -15,7 +15,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class TemperaturaMedia {
-    public static void TemperaturaMedia() {
+    public static void temperaturaMedia() {
         final List<String> mesesDoAno = List.of("Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho");
         Scanner scanner = new Scanner(System.in);
         List<Double> lista = new ArrayList<>();

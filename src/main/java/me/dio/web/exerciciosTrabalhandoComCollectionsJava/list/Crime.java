@@ -1,4 +1,4 @@
-package me.dio.web.trabalhandoComCollectionsJava.exercicios;
+package me.dio.web.exerciciosTrabalhandoComCollectionsJava.list;
 
 /*
 Utilizando listas,faça um programa que faça 5perguntas para uma
@@ -18,7 +18,7 @@ import java.util.Objects;
 import java.util.Scanner;
 
 public class Crime {
-    public static void Crime() {
+    public static void crime() {
         List<String> perguntas = List.of("Telefonou para a vítima?", "Esteve no local do crime?", "Mora perto da vítima?", "Devia para a vítima?", "Já trabalhou com a vítima?");
         Scanner scanner = new Scanner(System.in);
         int count = 0;
